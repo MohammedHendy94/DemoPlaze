@@ -29,5 +29,9 @@ public class DriverSingleton {
     public String getCurrentUrl(){
        return webdriver.getCurrentUrl();
     }
+    public static void closeDriver(){ webdriver.quit();}
+    public void navigateTo(){
+        webdriver.navigate().to("https://www.demoblaze.com/");
+    }
 
 }

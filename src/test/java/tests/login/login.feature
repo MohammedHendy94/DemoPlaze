@@ -13,4 +13,4 @@ Feature: Login Functionality
 
     Examples:
     |username | password |url                                   |
-    |hendy6    |2023      |https://www.demoblaze.com/            |
+    |hendy10    |2023      |https://www.demoblaze.com/           |
